@@ -73,7 +73,7 @@ public class Main {
         System.out.println("Tipo de cartão: (0-Corrente, 1-Poupança)");
             tipoConta = sc.nextInt();
 
-        System.out.println("Insira 4 dígitos para definir a senha da sua conta: ");
+        System.out.println("Defina a senha da sua conta: ");
             senhaCartao = sc.nextInt();
 
         for(int i = 1; i<5; i++){
